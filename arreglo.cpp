@@ -2,15 +2,11 @@
 
 int main() {
 
-int arreglo[5];
+int arreglo[10]={1,2,3,4,5,6,7,8,9,10};
 
-arreglo[0]= 1;
-arreglo[1]= 2;
-arreglo[2]= 3;
-arreglo[3]= 4;
-arreglo[4]= 5;
 
-printf("Arreglo: {%i,%i,%i,%i,%i}",arreglo[0],arreglo[1],arreglo[2],arreglo[2],arreglo[4]);
+for(int i=0; i <10; i++) {
+printf("%i ",arreglo[i]);
+}
 
-  return 0;
 }
